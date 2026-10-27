@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: maven-hello  
-          image: venkatmaddala/maven-hello:17
+          image: venkatmaddala/maven-hello:18
           ports: 
             - containerPort: 8081
           imagePullPolicy: Always
